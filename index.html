@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  	<meta charset="utf-8">
+  	<title>GIPHY Fun</title>
+
+	<link rel="stylesheet" href="assets/css/reset.css">
+ 	<link rel="stylesheet" href="assets/css/style.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  	  
+</head>
+
+<body>
+	<div class="container">
+
+    <!-- Rendered buttons will get dumped Here  -->
+    <div id="buttons-view"></div>
+
+    <form id="feelings-form">
+      <label for="feelings-input">Tell us how you feel<br></label>
+      <input type="text" id="feelings-input"><br>
+
+      <!-- Button triggers new feeling to be added -->
+      <input id="add-feelings" type="submit" value="Submit">
+    </form>
+
+    <!-- Feelings will get dumped here -->
+    <div id="feelings-view">
+    
+    </div>
+
+  </div>
+
+  <div id="gifs-appear-here">
+  </div>
+    
+<script src="assets/javascript/app.js"></script>
+</body>
+
+</html>
+
+<!-- 
+use buttons to display gifs & rating
+set up api and button functions (span- so they're inline)
+10 static images should be grabbed
+when a user clicks the giphy image, the image should animate
+display rating
+set the input button to the submit button so you can add a gif as you go
+
+then make a function call that takes each topic in the array remakes the buttons on the page?- look at the video again  -->
+
+
